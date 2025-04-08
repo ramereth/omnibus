@@ -16,8 +16,10 @@
 
 WHITELIST_LIBS = [
     /ld-linux/,
+    /ld-musl/,
     /libanl\.so/,
     /libc\.so/,
+    /libc-musl.*\.so/,
     /libcrypt\.so/,
     /libdl/,
     /libfreebl\d\.so/,
